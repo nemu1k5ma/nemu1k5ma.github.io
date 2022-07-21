@@ -6,7 +6,7 @@
   <link href="https://nemu1k5ma.github.io/atom.xml" rel="self"/>
   
   <link href="https://nemu1k5ma.github.io/"/>
-  <updated>2022-07-21T02:37:39.652Z</updated>
+  <updated>2022-07-21T04:03:40.662Z</updated>
   <id>https://nemu1k5ma.github.io/</id>
   
   <author>
@@ -17,9 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>今日记录</title>
+    <link href="https://nemu1k5ma.github.io/posts/300.html"/>
+    <id>https://nemu1k5ma.github.io/posts/300.html</id>
+    <published>2022-07-21T04:01:42.000Z</published>
+    <updated>2022-07-21T04:03:40.662Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试日记"><a href="#测试日记" class="headerlink" title="测试日记"></a>测试日记</h1><p>今日内容：无</p><p>今日收获：无</p><p>今日成长：无</p><p>总结：鉴定为纯纯的废物</p><p>Over</p>]]></content>
+    
+    
+    <summary type="html">今日平安无大事</summary>
+    
+    
+    
+    <category term="diary" scheme="https://nemu1k5ma.github.io/categories/diary/"/>
+    
+    
+    <category term="日记" scheme="https://nemu1k5ma.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="https://nemu1k5ma.github.io/posts/3eeb"/>
-    <id>https://nemu1k5ma.github.io/posts/3eeb</id>
+    <link href="https://nemu1k5ma.github.io/posts/3eeb.html"/>
+    <id>https://nemu1k5ma.github.io/posts/3eeb.html</id>
     <published>2022-07-19T15:15:53.471Z</published>
     <updated>2022-07-21T02:37:39.652Z</updated>
     
