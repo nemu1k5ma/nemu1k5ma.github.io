@@ -6,7 +6,7 @@
   <link href="https://nemu1k5ma.github.io/atom.xml" rel="self"/>
   
   <link href="https://nemu1k5ma.github.io/"/>
-  <updated>2022-07-21T04:03:49.498Z</updated>
+  <updated>2022-07-25T04:57:37.789Z</updated>
   <id>https://nemu1k5ma.github.io/</id>
   
   <author>
@@ -17,43 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>今日记录</title>
-    <link href="https://nemu1k5ma.github.io/posts/300.html"/>
-    <id>https://nemu1k5ma.github.io/posts/300.html</id>
-    <published>2022-07-21T04:01:42.000Z</published>
-    <updated>2022-07-21T04:03:49.498Z</updated>
+    <title>美化hexo-butterfly主题记录（一）</title>
+    <link href="https://nemu1k5ma.github.io/posts/3131.html"/>
+    <id>https://nemu1k5ma.github.io/posts/3131.html</id>
+    <published>2022-07-25T03:52:44.000Z</published>
+    <updated>2022-07-25T04:57:37.789Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="测试日记"><a href="#测试日记" class="headerlink" title="测试日记"></a>测试日记</h1><p>今日内容：无</p><p>今日收获：无</p><p>今日成长：无</p><p>总结：鉴定为纯纯的废物</p><p>Over</p>]]></content>
-    
-    
-    <summary type="html">今日平安无大事</summary>
-    
-    
-    
-    <category term="diary" scheme="https://nemu1k5ma.github.io/categories/diary/"/>
-    
-    
-    <category term="日记" scheme="https://nemu1k5ma.github.io/Tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://nemu1k5ma.github.io/posts/3eeb.html"/>
-    <id>https://nemu1k5ma.github.io/posts/3eeb.html</id>
-    <published>2022-07-19T15:15:53.471Z</published>
-    <updated>2022-07-21T02:37:39.652Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="前情提要"><a href="#前情提要" class="headerlink" title="前情提要"></a>前情提要</h2><p>​由于hexo-butterfly自带的cover封面图片与markdown插入图片路径冲突（我不会用），并且想把封面图存放到与markdown文件一样的同名目录下，于是对主题js进行魔改</p><h2 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h2><p><img src="/posts/3131/%E4%BF%AE%E6%94%B9_config.yml%E5%86%85%E5%AE%B9.png" alt="修改post_assert_folder为true"></p><p>进入node_modules/hexo-theme-butterfly/scripts/filters/random_cover.js，将data.path修改为data.path.slice(0,5)+”/“</p><p><img src="/posts/3131/%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81.png" alt="修改data.path"></p><p>新建文档，添加cover字段，将封面放入同目录下生成的同名文件夹，使用去根路径的图片相对路径</p><p><img src="/posts/3131/%E7%94%A8%E4%BE%8B.png" alt="添加cover字段"></p><p>具体如下图，封面已正常显示，且不会与插入图片冲突</p><p><img src="/posts/3131/%E4%BF%AE%E6%94%B9cover%E5%9B%BE%E7%89%87.png"></p><h2 id="额外"><a href="#额外" class="headerlink" title="额外"></a>额外</h2><p>由于butterfly自带的启动logo太丑了，我顺手改掉了（对不起作者大大不要打我）</p><p><img src="/posts/3131/%E9%AD%94%E6%94%B9logo.png"></p><p>嗯，顺眼多了[]<del>(￣▽￣)</del>*</p><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>[*] 封面引用自<a href="https://www.pixiv.net/users/5838770">あずーる</a>大大的<a href="https://www.pixiv.net/artworks/58017733" title="魔女の旅々２">魔女の旅々２</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h2 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; class=&quot;headerlink&quot; title=&quot;前情提要&quot;&gt;&lt;/a&gt;前情提要&lt;/h2&gt;&lt;p&gt;​	由于hexo-butterfly自带的cover封面图片与markdown插入图片路径冲突（我不会用），并且想把封面图存</summary>
       
     
     
     
+    <category term="blog" scheme="https://nemu1k5ma.github.io/categories/blog/"/>
+    
+    <category term="record" scheme="https://nemu1k5ma.github.io/categories/blog/record/"/>
+    
+    <category term="skill" scheme="https://nemu1k5ma.github.io/categories/skill/"/>
+    
+    <category term="front-end" scheme="https://nemu1k5ma.github.io/categories/skill/front-end/"/>
+    
+    
+    <category term="nodejs" scheme="https://nemu1k5ma.github.io/Tags/nodejs/"/>
+    
+    <category term="blog develop" scheme="https://nemu1k5ma.github.io/Tags/blog-develop/"/>
+    
+    <category term="magic change" scheme="https://nemu1k5ma.github.io/Tags/magic-change/"/>
     
   </entry>
   
