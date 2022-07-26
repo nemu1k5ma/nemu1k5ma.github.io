@@ -6,7 +6,7 @@
   <link href="https://nemu1k5ma.github.io/atom.xml" rel="self"/>
   
   <link href="https://nemu1k5ma.github.io/"/>
-  <updated>2022-07-25T05:37:45.566Z</updated>
+  <updated>2022-07-26T18:13:08.077Z</updated>
   <id>https://nemu1k5ma.github.io/</id>
   
   <author>
@@ -17,18 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>美化hexo-butterfly主题记录（一）</title>
+    <title>mac vscode常用快捷键</title>
+    <link href="https://nemu1k5ma.github.io/posts/c7bc.html"/>
+    <id>https://nemu1k5ma.github.io/posts/c7bc.html</id>
+    <published>2022-07-26T17:18:38.000Z</published>
+    <updated>2022-07-26T18:13:08.077Z</updated>
+    
+    <content type="html"><![CDATA[<p>复制粘贴一行代码：shift + option + 上下方向键</p><p>移动当前行代码：option + 上下方向键</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;复制粘贴一行代码：shift + option + 上下方向键&lt;/p&gt;
+&lt;p&gt;移动当前行代码：option + 上下方向键&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>美化hexo-butterfly主题记录 样式篇（一）</title>
     <link href="https://nemu1k5ma.github.io/posts/3131.html"/>
     <id>https://nemu1k5ma.github.io/posts/3131.html</id>
     <published>2022-07-25T03:52:44.000Z</published>
-    <updated>2022-07-25T05:37:45.566Z</updated>
+    <updated>2022-07-25T17:12:29.644Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前情提要"><a href="#前情提要" class="headerlink" title="前情提要"></a>前情提要</h2><p>​由于hexo-butterfly自带的cover封面图片与markdown插入图片路径冲突（我不会用），并且想把封面图存放到与markdown文件一样的同名目录下，于是对主题js进行魔改</p><h2 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h2><p><img src="/posts/3131/%E4%BF%AE%E6%94%B9_config.yml%E5%86%85%E5%AE%B9.png" alt="修改post_assert_folder为true"></p><p>进入node_modules/hexo-theme-butterfly/scripts/filters/random_cover.js，将data.path修改为data.path.slice(0,5)+”/“</p><p><img src="/posts/3131/%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81.png" alt="修改data.path"></p><p>新建文档，添加cover字段，将封面放入同目录下生成的同名文件夹，使用去根路径的图片相对路径</p><p><img src="/posts/3131/%E7%94%A8%E4%BE%8B.png" alt="添加cover字段"></p><p>具体如下图，封面已正常显示，且不会与插入图片冲突</p><p><img src="/posts/3131/%E4%BF%AE%E6%94%B9cover%E5%9B%BE%E7%89%87.png"></p><h2 id="额外"><a href="#额外" class="headerlink" title="额外"></a>额外</h2><p>由于butterfly自带的启动logo太丑了，我顺手改掉了（对不起作者大大不要打我）</p><p><img src="/posts/3131/%E9%AD%94%E6%94%B9logo.png"></p><p>嗯，顺眼多了:)</p><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>[*] 封面引用自<a href="https://www.pixiv.net/users/5838770">あずーる</a>大大的<a href="https://www.pixiv.net/artworks/58017733" title="魔女の旅々２">魔女の旅々２</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="前情提要"><a href="#前情提要" class="headerlink" title="前情提要"></a>前情提要</h2><p>hexo + hexo-butterfly，很棒，但可定制化内容还是不多（用和别人相同的主题会死症患者），于是对主题进行魔改。</p><h2 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h2><h3 id="0x00-自定义文章封面"><a href="#0x00-自定义文章封面" class="headerlink" title="0x00 自定义文章封面"></a>0x00 自定义文章封面</h3><p><img src="/posts/3131/%E4%BF%AE%E6%94%B9_config.yml%E5%86%85%E5%AE%B9.png" alt="修改post_assert_folder为true"></p><p>进入node_modules/hexo-theme-butterfly/scripts/filters/random_cover.js，将data.path修改为data.path.slice(0,5)+”/“</p><p><img src="/posts/3131/%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81.jpeg" alt="修改data.path"></p><p>新建文档，添加cover字段，将封面放入同目录下生成的同名文件夹，使用去根路径的图片相对路径</p><p><img src="/posts/3131/%E7%94%A8%E4%BE%8B.png" alt="添加cover字段"></p><p>具体如下图，封面已正常显示，且不会与插入图片冲突</p><p><img src="/posts/3131/%E4%BF%AE%E6%94%B9cover%E5%9B%BE%E7%89%87.png"></p><h2 id="额外"><a href="#额外" class="headerlink" title="额外"></a>额外</h2><p>由于butterfly自带的启动logo太丑了，我顺手改掉了（对不起作者大大不要打我）</p><p><img src="/posts/3131/%E9%AD%94%E6%94%B9logo.png" alt="嗯 舒服:)"></p><h3 id="0x01-page页面与home页面设置不同步问题"><a href="#0x01-page页面与home页面设置不同步问题" class="headerlink" title="0x01 page页面与home页面设置不同步问题"></a>0x01 page页面与home页面设置不同步问题</h3><p>page页面与home页面的top_img和大小不一致，需要修改hexo-butterfly文件中的head.styl文件</p><p><img src="/posts/3131/%E4%BF%AE%E6%94%B9head%E6%96%87%E4%BB%B6.png" alt="注释掉background-attachment 修改height和top的值"></p><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>[*] 封面引用自<a href="https://www.pixiv.net/users/5838770">あずーる</a>大大的<a href="https://www.pixiv.net/artworks/58017733" title="魔女の旅々２">魔女の旅々２</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; class=&quot;headerlink&quot; title=&quot;前情提要&quot;&gt;&lt;/a&gt;前情提要&lt;/h2&gt;&lt;p&gt;​	由于hexo-butterfly自带的cover封面图片与markdown插入图片路径冲突（我不会用），并且想把封面图存</summary>
+    <summary type="html">&lt;h2 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; class=&quot;headerlink&quot; title=&quot;前情提要&quot;&gt;&lt;/a&gt;前情提要&lt;/h2&gt;&lt;p&gt;hexo + hexo-butterfly，很棒，但可定制化内容还是不多（用和别人相同的主题会死症患者），于是对主题进行魔改</summary>
       
     
     
